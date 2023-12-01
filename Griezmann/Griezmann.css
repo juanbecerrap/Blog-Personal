@@ -1,0 +1,62 @@
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+   background-color: #1622c9;
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 100px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb;
+    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/3b9a4821-eb83-4bbb-8812-82aecb58eca6_alta-libre-aspect-ratio_default_0.jpg);
+    padding-left: 30px; 
+  }
+  
+  
+
+ 
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: center; 
+    padding-bottom: 20px; 
+    color: #1622c9;
+    
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #ffffff;   
+  }

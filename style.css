@@ -1,0 +1,144 @@
+:root {
+    --background-green: #1ae603;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2016/02/Football-Universal-4k-scaled.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    padding: 50px 10px; /* Adjusted padding for better mobile view */
+}
+
+/* HEADER - ENCABEZADO */
+
+figure {
+    padding: 20px; /* Reduced padding for better mobile view */
+    background: var(--background-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 80px; /* Adjusted logo size for better mobile view */
+}
+
+header h1 {
+    font-size: 30px; /* Adjusted header size for better mobile view */
+}
+
+nav {
+    background: var(--black);
+    border-bottom: 5px solid var(--white);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allow navigation items to wrap on smaller screens */
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: var(--background-green);
+}
+
+/* MAIN - CONTENIDO */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contenido {
+    background: var(--white);
+    padding: 20px;
+}
+
+.article {
+    color: var(--black);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--black);
+    text-align: justify;
+}
+
+footer {
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* Media Query for Tablets and Desktops */
+@media only screen and (min-width: 768px) {
+    #container {
+        padding: 50px 50px 0;
+    }
+
+    figure {
+        padding: 45px;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav a {
+        margin: 0 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr auto;
+    }
+
+    .contenido {
+        padding: 40px;
+    }
+
+    .article {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--black);
+        text-align: justify;
+    }
+
+    footer {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+
+
